@@ -62,6 +62,8 @@ export default function LandingPage(props) {
                 <i className="fas fa-play" />
                 Watch video
               </Button>
+              <br /><br /><br /><br />
+              <br /><br /><br /><br />
             </GridItem>
           </GridContainer>
         </div>
