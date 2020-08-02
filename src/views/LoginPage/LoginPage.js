@@ -32,6 +32,8 @@ import styles from "assets/jss/material-kit-react/views/loginPage.js";
 
 import image from "assets/img/bg7.jpg";
 
+import ScrollUpButton from "react-scroll-up-button";
+
 const useStyles = makeStyles(styles);
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -207,6 +209,7 @@ export default function LoginPage(props) {
         </div>
         <Footer whiteFont />
       </div>
+      <ScrollUpButton />
     </div>
   );
 }

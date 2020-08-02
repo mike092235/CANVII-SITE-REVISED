@@ -32,6 +32,8 @@ import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
+import ScrollUpButton from "react-scroll-up-button";
+
 const useStyles = makeStyles(styles);
 
 export default function ShopPage(props) {
@@ -210,6 +212,7 @@ export default function ShopPage(props) {
         </div>
       </div>
       <Footer />
+      <ScrollUpButton />
     </div>
   );
 }

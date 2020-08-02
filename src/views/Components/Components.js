@@ -30,6 +30,8 @@ import SectionDownload from "./Sections/SectionDownload.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
+import ScrollUpButton from "react-scroll-up-button";
+
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
@@ -68,6 +70,7 @@ export default function Components(props) {
         <SectionCarousel />
       </div>
       <Footer />
+      <ScrollUpButton />
     </div>
   );
 }

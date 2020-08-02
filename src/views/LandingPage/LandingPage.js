@@ -22,6 +22,8 @@ import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
 
+import ScrollUpButton from "react-scroll-up-button";
+
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
@@ -77,6 +79,7 @@ export default function LandingPage(props) {
         </div>
       </div>
       <Footer />
+      <ScrollUpButton />
     </div>
   );
 }
