@@ -47,6 +47,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
+              <br /><br />
               <h1 className={classes.title}>What is CANVII ?</h1>
               <h4>
                 CANVII is a company that was created to help represent visual artists on a global scale. Through art events, collaborations, and the efforts among the artists, we strive to strengthen the personal brand of every artist that partners with the CANVII brand. CANVII serves as a universal platform - a brand which artists can leverage to potentially gain additional exposure, connect with other artists, and contribute to the art culture. Changing the common notion of the starving artist...to the striving artist.
