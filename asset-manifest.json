@@ -1,21 +1,33 @@
 {
   "files": {
     "main.css": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css",
-    "main.js": "/CANVII-SITE-REVISED/static/js/main.e15e19a3.chunk.js",
-    "main.js.map": "/CANVII-SITE-REVISED/static/js/main.e15e19a3.chunk.js.map",
+    "main.js": "/CANVII-SITE-REVISED/static/js/main.dceefc69.chunk.js",
+    "main.js.map": "/CANVII-SITE-REVISED/static/js/main.dceefc69.chunk.js.map",
     "runtime-main.js": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js",
     "runtime-main.js.map": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js.map",
-    "static/js/2.89bf5c15.chunk.js": "/CANVII-SITE-REVISED/static/js/2.89bf5c15.chunk.js",
-    "static/js/2.89bf5c15.chunk.js.map": "/CANVII-SITE-REVISED/static/js/2.89bf5c15.chunk.js.map",
+    "static/js/2.dba968d1.chunk.js": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js",
+    "static/js/2.dba968d1.chunk.js.map": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js.map",
     "index.html": "/CANVII-SITE-REVISED/index.html",
-    "precache-manifest.9295835395b72ff779ce159b7b945c24.js": "/CANVII-SITE-REVISED/precache-manifest.9295835395b72ff779ce159b7b945c24.js",
+    "precache-manifest.6802b13956042fdf0892d6d6c05db38a.js": "/CANVII-SITE-REVISED/precache-manifest.6802b13956042fdf0892d6d6c05db38a.js",
     "service-worker.js": "/CANVII-SITE-REVISED/service-worker.js",
     "static/css/main.126c14d6.chunk.css.map": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css.map",
-    "static/js/2.89bf5c15.chunk.js.LICENSE.txt": "/CANVII-SITE-REVISED/static/js/2.89bf5c15.chunk.js.LICENSE.txt",
+    "static/js/2.dba968d1.chunk.js.LICENSE.txt": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js.LICENSE.txt",
+    "static/media/Burgundy_front_facing_giraffe.png": "/CANVII-SITE-REVISED/static/media/Burgundy_front_facing_giraffe.30b4f03f.png",
+    "static/media/Burgundy_front_facing_with_logo.png": "/CANVII-SITE-REVISED/static/media/Burgundy_front_facing_with_logo.b5aaa07b.png",
+    "static/media/CANVII_Tshirt.png": "/CANVII-SITE-REVISED/static/media/CANVII_Tshirt.e8bcf9c0.png",
+    "static/media/CANVII_Visor_black_.png": "/CANVII-SITE-REVISED/static/media/CANVII_Visor_black_.cab69c33.png",
+    "static/media/CANVII_Visor_black_fillin.png": "/CANVII-SITE-REVISED/static/media/CANVII_Visor_black_fillin.7de0153d.png",
     "static/media/avatar.jpg": "/CANVII-SITE-REVISED/static/media/avatar.f1d71f77.jpg",
     "static/media/bg.jpg": "/CANVII-SITE-REVISED/static/media/bg.e5241971.jpg",
     "static/media/bg4.jpg": "/CANVII-SITE-REVISED/static/media/bg4.627d3d04.jpg",
     "static/media/bg7.jpg": "/CANVII-SITE-REVISED/static/media/bg7.b08234a2.jpg",
+    "static/media/black_dadhat_new.png": "/CANVII-SITE-REVISED/static/media/black_dadhat_new.9b446005.png",
+    "static/media/black_dadhat_new_fillin.png": "/CANVII-SITE-REVISED/static/media/black_dadhat_new_fillin.21a366d5.png",
+    "static/media/black_sweater_WHITE_letters.png": "/CANVII-SITE-REVISED/static/media/black_sweater_WHITE_letters.36bf1720.png",
+    "static/media/black_visor_blue_Girrafe.png": "/CANVII-SITE-REVISED/static/media/black_visor_blue_Girrafe.d384f8e2.png",
+    "static/media/black_visor_green_Girrafe.png": "/CANVII-SITE-REVISED/static/media/black_visor_green_Girrafe.5d83adfc.png",
+    "static/media/black_visor_red_Girrafe.png": "/CANVII-SITE-REVISED/static/media/black_visor_red_Girrafe.3ac8e333.png",
+    "static/media/canvii.png": "/CANVII-SITE-REVISED/static/media/canvii.46966767.png",
     "static/media/christian.jpg": "/CANVII-SITE-REVISED/static/media/christian.56633ed3.jpg",
     "static/media/clem-onojegaw.jpg": "/CANVII-SITE-REVISED/static/media/clem-onojegaw.c058841b.jpg",
     "static/media/clem-onojeghuo.jpg": "/CANVII-SITE-REVISED/static/media/clem-onojeghuo.216ef03c.jpg",
@@ -34,12 +46,13 @@
     "static/media/studio-2.jpg": "/CANVII-SITE-REVISED/static/media/studio-2.76e2987e.jpg",
     "static/media/studio-3.jpg": "/CANVII-SITE-REVISED/static/media/studio-3.1d5451ce.jpg",
     "static/media/studio-4.jpg": "/CANVII-SITE-REVISED/static/media/studio-4.e064d090.jpg",
-    "static/media/studio-5.jpg": "/CANVII-SITE-REVISED/static/media/studio-5.ef5c30ea.jpg"
+    "static/media/studio-5.jpg": "/CANVII-SITE-REVISED/static/media/studio-5.ef5c30ea.jpg",
+    "static/media/white_sweater_RED_tri.png": "/CANVII-SITE-REVISED/static/media/white_sweater_RED_tri.7934d956.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f3234705.js",
-    "static/js/2.89bf5c15.chunk.js",
+    "static/js/2.dba968d1.chunk.js",
     "static/css/main.126c14d6.chunk.css",
-    "static/js/main.e15e19a3.chunk.js"
+    "static/js/main.dceefc69.chunk.js"
   ]
 }
