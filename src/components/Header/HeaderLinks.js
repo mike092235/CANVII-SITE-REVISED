@@ -110,6 +110,23 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="ShoppingCart-tooltip"
+          title="My Cart"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href=""
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fa fa-shopping-cart"} />
+          </Button>
+        </Tooltip>
+      </ListItem>
     </List>
   );
 }
