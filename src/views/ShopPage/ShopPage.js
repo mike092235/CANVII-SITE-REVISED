@@ -53,9 +53,6 @@ import image12 from "assets/img/canvii-merch/white_sweater_RED_tri.png";
 const useStyles = makeStyles(styles);
 
 export default function ShopPage(props) {
-  const [cardAnimaton, setCardAnimation] = React.useState("cardHidden");
-  const [classicModal, setClassicModal] = React.useState(false);
-
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -63,12 +60,11 @@ export default function ShopPage(props) {
     classes.imgRoundedCircle,
     classes.imgFluid
   );
-  const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
   return (
     <div>
       <Header
+        brand="CANVII"
         color="transparent"
-        brand=""
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

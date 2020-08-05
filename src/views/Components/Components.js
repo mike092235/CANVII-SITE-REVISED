@@ -13,6 +13,8 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
+import SnackbarContent from "components/Snackbar/SnackbarContent.js";
+
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionBasics from "./Sections/SectionBasics.js";
@@ -40,7 +42,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand=""
+        brand="CANVII"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"

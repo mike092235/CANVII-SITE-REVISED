@@ -56,7 +56,7 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand=""
+        brand="CANVII"
         rightLinks={<HeaderLinks />}
         {...rest}
       />

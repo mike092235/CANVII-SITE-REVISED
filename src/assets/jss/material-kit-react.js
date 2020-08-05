@@ -25,8 +25,8 @@ const transition = {
 };
 
 const containerFluid = {
-  paddingRight: "15px",
-  paddingLeft: "15px",
+  paddingRight: "5px",
+  paddingLeft: "5px",
   marginRight: "auto",
   marginLeft: "auto",
   width: "100%"
@@ -34,6 +34,7 @@ const containerFluid = {
 const container = {
   ...containerFluid,
   "@media (min-width: 576px)": {
+    // have container spread all the way to the egde on mobile or close to edge as possible
     maxWidth: "540px"
   },
   "@media (min-width: 768px)": {

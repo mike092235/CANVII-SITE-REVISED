@@ -27,71 +27,49 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Menu"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              Home
-            </Link>,
-            <Link to="/landing-page" className={classes.dropdownLink}>
-              About
-            </Link>,
-            <Link to="/profile-page" className={classes.dropdownLink}> 
-              Featured Artist
-            </Link>,
-            <Link to="/shop-page" className={classes.dropdownLink}>
-              Shop
-            </Link>,
-            <Link to="/login-page" className={classes.dropdownLink}>
-              Canvii Portal
-            </Link>
-          ]}
-        />
+        <Button
+          href="/"
+          className={classes.navLink}
+          color="transparent"
+        >
+          Home
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        {/*<Tooltip title="Delete">
-          <IconButton aria-label="Delete">
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>*/}
-        <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
+        <Button
+          href="/landing-page"
+          className={classes.navLink}
+          color="transparent"
         >
-          <Button
-            href="https://twitter.com/"
-            target="_blank"
-            color="transparent"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
-          </Button>
-        </Tooltip>
+          About
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
+        <Button
+          href="/profile-page"
+          className={classes.navLink}
+          color="transparent"
         >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
+          Featured Artists
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/shop-page"
+          className={classes.navLink}
+          color="transparent"
+        >
+          Shop
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/login-page"
+          className={classes.navLink}
+          color="transparent"
+        >
+          CANVII Portal
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
