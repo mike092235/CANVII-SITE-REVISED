@@ -27,49 +27,29 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/"
-          className={classes.navLink}
-          color="transparent"
-        >
-          Home
-        </Button>
+        <Link to="/" className={classes.dropdownLink}>
+          HOME
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/landing-page"
-          className={classes.navLink}
-          color="transparent"
-        >
-          About
-        </Button>
+        <Link to="/landing-page" className={classes.dropdownLink}>
+          ABOUT
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/profile-page"
-          className={classes.navLink}
-          color="transparent"
-        >
-          Featured Artists
-        </Button>
+        <Link to="/profile-page" className={classes.dropdownLink}>
+          FEATURED ARTISTS
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/shop-page"
-          className={classes.navLink}
-          color="transparent"
-        >
-          Shop
-        </Button>
+        <Link to="/shop-page" className={classes.dropdownLink}>
+          SHOP
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/login-page"
-          className={classes.navLink}
-          color="transparent"
-        >
-          CANVII Portal
-        </Button>
+        <Link to="/login-page" className={classes.dropdownLink}>
+          CANVII PORTAL
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
