@@ -7,6 +7,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import Camera from "@material-ui/icons/Camera";
 import Palette from "@material-ui/icons/Palette";
 import Favorite from "@material-ui/icons/Favorite";
+import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import PersonIcon from '@material-ui/icons/Person';
+import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -50,6 +53,9 @@ import image12 from "assets/img/canvii-merch/white_sweater_RED_tri.png";
 const useStyles = makeStyles(styles);
 
 export default function ShopPage(props) {
+  const [cardAnimaton, setCardAnimation] = React.useState("cardHidden");
+  const [classicModal, setClassicModal] = React.useState(false);
+
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -96,20 +102,21 @@ export default function ShopPage(props) {
                   tabs={[
                     {
                       tabButton: "ALL",
-                      tabIcon: Palette,
+                      tabIcon: PeopleAltIcon,
                       tabContent: (
                         <div>
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
-                              <h4>Blue Giraffe Visor</h4>
+                              <h4>Giraffe Visor Blue</h4>
                               <img
                                 src={image1}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>Red Giraffe Visor</h4>
+                              <h4>Giraffe Visor Red</h4>
                               <img
                                 src={image2}
                                 alt="..."
@@ -117,7 +124,7 @@ export default function ShopPage(props) {
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>Green Giraffe Visor</h4>
+                              <h4>Giraffe Visor Green</h4>
                               <img
                                 src={image3}
                                 alt="..."
@@ -125,23 +132,23 @@ export default function ShopPage(props) {
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Visor</h4>
+                              <h4>CANVII Visor Blank</h4>
                               <img
                                 src={image4}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
                             </GridItem>
-                          </GridContainer>
-                          <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Visor (Fillin)</h4>
+                              <h4>CANVII Visor Fill-in</h4>
                               <img
                                 src={image5}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
                             </GridItem>
+                          </GridContainer>
+                          <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Burgundy Dad Hat</h4>
                               <img
@@ -151,7 +158,7 @@ export default function ShopPage(props) {
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>Green Giraffe Dad Hat (Burgundy)</h4>
+                              <h4>CANVII Burgundy Giraffe</h4>
                               <img
                                 src={image7}
                                 alt="..."
@@ -159,9 +166,17 @@ export default function ShopPage(props) {
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Dad Hat (Black)</h4>
+                              <h4>CANVII Dad Hat Blank Black</h4>
                               <img
                                 src={image8}
+                                alt="..."
+                                className={classes.imgRounded + " " + classes.imgFluid}
+                              />
+                            </GridItem>
+                            <GridItem xs={12} sm={2}>
+                              <h4>CANVII Dad Hat Fill-in Black</h4>
+                              <img
+                                src={image9}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
@@ -169,15 +184,7 @@ export default function ShopPage(props) {
                           </GridContainer>
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Dad Hat - Fillin (Black)</h4>
-                              <img
-                                src={image9}
-                                alt="..."
-                                className={classes.imgRounded + " " + classes.imgFluid}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={2}>
-                              <h4>CANVII T-Shirt (Black; Fillin)</h4>
+                              <h4>CANVII T-Shirt Fill-in Black</h4>
                               <img
                                 src={image10}
                                 alt="..."
@@ -185,7 +192,7 @@ export default function ShopPage(props) {
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Sweater (Black w/ White Letters)</h4>
+                              <h4>CANVII Sweater Black</h4>
                               <img
                                 src={image11}
                                 alt="..."
@@ -193,7 +200,7 @@ export default function ShopPage(props) {
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Sweater (White w/ Red & Black Letters)</h4>
+                              <h4>CANVII Sweater White</h4>
                               <img
                                 src={image12}
                                 alt="..."
@@ -206,11 +213,11 @@ export default function ShopPage(props) {
                     },
                     {
                       tabButton: "APPAREL",
-                      tabIcon: Camera,
+                      tabIcon: PersonIcon,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={2}>
-                            <h4>CANVII T-Shirt (Black; Fillin)</h4>
+                            <h4>CANVII T-Shirt Fillin Black</h4>
                             <img
                               src={image10}
                               alt="..."
@@ -218,7 +225,7 @@ export default function ShopPage(props) {
                             />
                           </GridItem>
                           <GridItem xs={12} sm={2}>
-                            <h4>CANVII Sweater (Black w/ White Letters)</h4>
+                            <h4>CANVII Sweater Black</h4>
                             <img
                               src={image11}
                               alt="..."
@@ -226,7 +233,7 @@ export default function ShopPage(props) {
                             />
                           </GridItem>
                           <GridItem xs={12} sm={2}>
-                            <h4>CANVII Sweater (White w/ Red & Black Letters)</h4>
+                            <h4>CANVII Sweater White</h4>
                             <img
                               src={image12}
                               alt="..."
@@ -238,48 +245,22 @@ export default function ShopPage(props) {
                     },
                     {
                       tabButton: "HATS",
-                      tabIcon: Favorite,
+                      tabIcon: PersonOutlineIcon,
                       tabContent: (
                         <div>
                           <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
-                              <h4>Blue Giraffe Visor</h4>
+                              <h4>CANVII Dad Hat Blank Black</h4>
                               <img
-                                src={image1}
+                                src={image8}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>Red Giraffe Visor</h4>
+                              <h4>CANVII Dad Hat Fill-in Black</h4>
                               <img
-                                src={image2}
-                                alt="..."
-                                className={classes.imgRounded + " " + classes.imgFluid}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={2}>
-                              <h4>Green Giraffe Visor</h4>
-                              <img
-                                src={image3}
-                                alt="..."
-                                className={classes.imgRounded + " " + classes.imgFluid}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={2}>
-                              <h4>CANVII Visor</h4>
-                              <img
-                                src={image4}
-                                alt="..."
-                                className={classes.imgRounded + " " + classes.imgFluid}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={2}>
-                              <h4>CANVII Visor (Fillin)</h4>
-                              <img
-                                src={image5}
+                                src={image9}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
@@ -292,28 +273,54 @@ export default function ShopPage(props) {
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
                             </GridItem>
-                          </GridContainer>
-                          <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
-                              <h4>Green Giraffe Dad Hat (Burgundy)</h4>
+                              <h4>CANVII Burgundy Giraffe</h4>
                               <img
                                 src={image7}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
                             </GridItem>
+                          </GridContainer>
+                          <GridContainer justify="center">
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Dad Hat (Black)</h4>
+                              <h4>Giraffe Visor Blue</h4>
                               <img
-                                src={image8}
+                                src={image1}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
                             </GridItem>
                             <GridItem xs={12} sm={2}>
-                              <h4>CANVII Dad Hat - Fillin (Black)</h4>
+                              <h4>Giraffe Visor Red</h4>
                               <img
-                                src={image9}
+                                src={image2}
+                                alt="..."
+                                className={classes.imgRounded + " " + classes.imgFluid}
+                              />
+                            </GridItem>
+                            <GridItem xs={12} sm={2}>
+                              <h4>Giraffe Visor Green</h4>
+                              <img
+                                src={image3}
+                                alt="..."
+                                className={classes.imgRounded + " " + classes.imgFluid}
+                              />
+                            </GridItem>
+                          </GridContainer>
+                          <GridContainer justify="center">
+                            <GridItem xs={12} sm={2}>
+                              <h4>CANVII Visor Blank</h4>
+                              <img
+                                src={image4}
+                                alt="..."
+                                className={classes.imgRounded + " " + classes.imgFluid}
+                              />
+                            </GridItem>
+                            <GridItem xs={12} sm={2}>
+                              <h4>CANVII Visor Fill-in</h4>
+                              <img
+                                src={image5}
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />

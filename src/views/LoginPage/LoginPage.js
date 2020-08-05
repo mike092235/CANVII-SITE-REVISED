@@ -74,8 +74,8 @@ export default function LoginPage(props) {
               <Card className={classes[cardAnimaton]}>
                 <form className={classes.form}>
                   <CardHeader color="primary" className={classes.cardHeader}>
-                    <h4>Login</h4>
-                    <div className={classes.socialLine}>
+                    <h4><strong>CANVII</strong></h4>
+                    {/* <div className={classes.socialLine}>
                       <Button
                         justIcon
                         href="#pablo"
@@ -103,9 +103,9 @@ export default function LoginPage(props) {
                       >
                         <i className={"fab fa-google-plus-g"} />
                       </Button>
-                    </div>
+                    </div> */}
                   </CardHeader>
-                  <p className={classes.divider}>Welcome to the CANVII experience</p>
+                  <p className={classes.divider}>Sign In</p>
                   <CardBody>
                     <CustomInput
                       labelText="First Name..."
@@ -179,7 +179,7 @@ export default function LoginPage(props) {
                             disableTypography
                             className={classes.modalHeader}
                           >
-                          <h4 className={classes.modalTitle}>CANVII PORTAL</h4>
+                          <h4 className={classes.modalTitle}><strong>CANVII PORTAL</strong></h4>
                           </DialogTitle>
                           <DialogContent
                             id="classic-modal-slide-description"

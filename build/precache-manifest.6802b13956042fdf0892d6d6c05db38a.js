@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3a6f16ba8013326880a7e56bda8e037",
+    "revision": "d439cd643897b8347f15c7e1ae20f369",
     "url": "/CANVII-SITE-REVISED/index.html"
   },
   {
-    "revision": "3fe09faf751c6c904003",
+    "revision": "fd5817eb658122a2f379",
     "url": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css"
   },
   {
-    "revision": "4a02b9a7b76bfb7aa513",
-    "url": "/CANVII-SITE-REVISED/static/js/2.e12f8960.chunk.js"
+    "revision": "969ed9028bc044c0bc4b",
+    "url": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js"
   },
   {
     "revision": "8dbc9bd92b344a5deca62eeacc09fc2d",
-    "url": "/CANVII-SITE-REVISED/static/js/2.e12f8960.chunk.js.LICENSE.txt"
+    "url": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3fe09faf751c6c904003",
-    "url": "/CANVII-SITE-REVISED/static/js/main.5e5b2cd8.chunk.js"
+    "revision": "fd5817eb658122a2f379",
+    "url": "/CANVII-SITE-REVISED/static/js/main.dceefc69.chunk.js"
   },
   {
     "revision": "345866124ca7ac64d770",
     "url": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js"
+  },
+  {
+    "revision": "30b4f03f79514c3e4b5881b6c5c3a911",
+    "url": "/CANVII-SITE-REVISED/static/media/Burgundy_front_facing_giraffe.30b4f03f.png"
+  },
+  {
+    "revision": "b5aaa07bcf1370601639701a19d28e7f",
+    "url": "/CANVII-SITE-REVISED/static/media/Burgundy_front_facing_with_logo.b5aaa07b.png"
+  },
+  {
+    "revision": "e8bcf9c02e8d50ea9d44141bc1cc8c11",
+    "url": "/CANVII-SITE-REVISED/static/media/CANVII_Tshirt.e8bcf9c0.png"
+  },
+  {
+    "revision": "cab69c33a4e4ebc858d55b464352c5a1",
+    "url": "/CANVII-SITE-REVISED/static/media/CANVII_Visor_black_.cab69c33.png"
+  },
+  {
+    "revision": "7de0153d5fe5e5ac286bd694b3de40db",
+    "url": "/CANVII-SITE-REVISED/static/media/CANVII_Visor_black_fillin.7de0153d.png"
   },
   {
     "revision": "f1d71f777331fd7e3de116edf4ee3b67",
@@ -38,6 +58,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b08234a2b7e8e4fb2e3c4e713252021c",
     "url": "/CANVII-SITE-REVISED/static/media/bg7.b08234a2.jpg"
+  },
+  {
+    "revision": "9b446005991519bd970823f94bd22105",
+    "url": "/CANVII-SITE-REVISED/static/media/black_dadhat_new.9b446005.png"
+  },
+  {
+    "revision": "21a366d57105fe45fc420692fca75aeb",
+    "url": "/CANVII-SITE-REVISED/static/media/black_dadhat_new_fillin.21a366d5.png"
+  },
+  {
+    "revision": "36bf17203fa85ba5caf4932dada9727e",
+    "url": "/CANVII-SITE-REVISED/static/media/black_sweater_WHITE_letters.36bf1720.png"
+  },
+  {
+    "revision": "d384f8e2c24228cad13da82d8d32b471",
+    "url": "/CANVII-SITE-REVISED/static/media/black_visor_blue_Girrafe.d384f8e2.png"
+  },
+  {
+    "revision": "5d83adfc6e67204050923101da24cb5c",
+    "url": "/CANVII-SITE-REVISED/static/media/black_visor_green_Girrafe.5d83adfc.png"
+  },
+  {
+    "revision": "3ac8e333a50694e7eddcac7b5645d1ef",
+    "url": "/CANVII-SITE-REVISED/static/media/black_visor_red_Girrafe.3ac8e333.png"
+  },
+  {
+    "revision": "46966767ab235b1fc7c5ba5e2497a381",
+    "url": "/CANVII-SITE-REVISED/static/media/canvii.46966767.png"
   },
   {
     "revision": "56633ed3f62f39d71f571374a6409e65",
@@ -114,5 +162,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef5c30ea69b7ad740ee6221782c73741",
     "url": "/CANVII-SITE-REVISED/static/media/studio-5.ef5c30ea.jpg"
+  },
+  {
+    "revision": "7934d956c84d68ae9e576f3adf65e651",
+    "url": "/CANVII-SITE-REVISED/static/media/white_sweater_RED_tri.7934d956.png"
   }
 ]);
