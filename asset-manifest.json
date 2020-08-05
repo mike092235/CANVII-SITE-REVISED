@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css",
-    "main.js": "/CANVII-SITE-REVISED/static/js/main.dceefc69.chunk.js",
-    "main.js.map": "/CANVII-SITE-REVISED/static/js/main.dceefc69.chunk.js.map",
+    "main.js": "/CANVII-SITE-REVISED/static/js/main.0d29b6b0.chunk.js",
+    "main.js.map": "/CANVII-SITE-REVISED/static/js/main.0d29b6b0.chunk.js.map",
     "runtime-main.js": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js",
     "runtime-main.js.map": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js.map",
-    "static/js/2.dba968d1.chunk.js": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js",
-    "static/js/2.dba968d1.chunk.js.map": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js.map",
+    "static/js/2.c24928aa.chunk.js": "/CANVII-SITE-REVISED/static/js/2.c24928aa.chunk.js",
+    "static/js/2.c24928aa.chunk.js.map": "/CANVII-SITE-REVISED/static/js/2.c24928aa.chunk.js.map",
     "index.html": "/CANVII-SITE-REVISED/index.html",
-    "precache-manifest.6802b13956042fdf0892d6d6c05db38a.js": "/CANVII-SITE-REVISED/precache-manifest.6802b13956042fdf0892d6d6c05db38a.js",
+    "precache-manifest.7cf681666a6debdd063501ea92c7b872.js": "/CANVII-SITE-REVISED/precache-manifest.7cf681666a6debdd063501ea92c7b872.js",
     "service-worker.js": "/CANVII-SITE-REVISED/service-worker.js",
     "static/css/main.126c14d6.chunk.css.map": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css.map",
-    "static/js/2.dba968d1.chunk.js.LICENSE.txt": "/CANVII-SITE-REVISED/static/js/2.dba968d1.chunk.js.LICENSE.txt",
+    "static/js/2.c24928aa.chunk.js.LICENSE.txt": "/CANVII-SITE-REVISED/static/js/2.c24928aa.chunk.js.LICENSE.txt",
     "static/media/Burgundy_front_facing_giraffe.png": "/CANVII-SITE-REVISED/static/media/Burgundy_front_facing_giraffe.30b4f03f.png",
     "static/media/Burgundy_front_facing_with_logo.png": "/CANVII-SITE-REVISED/static/media/Burgundy_front_facing_with_logo.b5aaa07b.png",
     "static/media/CANVII_Tshirt.png": "/CANVII-SITE-REVISED/static/media/CANVII_Tshirt.e8bcf9c0.png",
@@ -51,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f3234705.js",
-    "static/js/2.dba968d1.chunk.js",
+    "static/js/2.c24928aa.chunk.js",
     "static/css/main.126c14d6.chunk.css",
-    "static/js/main.dceefc69.chunk.js"
+    "static/js/main.0d29b6b0.chunk.js"
   ]
 }
