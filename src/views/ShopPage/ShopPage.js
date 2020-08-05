@@ -113,7 +113,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
-
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>Giraffe Visor Red</h4>
@@ -122,6 +122,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>Giraffe Visor Green</h4>
@@ -130,6 +131,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Visor Blank</h4>
@@ -138,6 +140,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Visor Fill-in</h4>
@@ -146,6 +149,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                           </GridContainer>
                           <GridContainer justify="center">
@@ -156,6 +160,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$30.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Burgundy Giraffe</h4>
@@ -164,6 +169,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$30.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Dad Hat Blank Black</h4>
@@ -172,6 +178,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$25.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Dad Hat Fill-in Black</h4>
@@ -180,6 +187,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$25.00</h4>
                             </GridItem>
                           </GridContainer>
                           <GridContainer justify="center">
@@ -190,6 +198,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$30.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Sweater Black</h4>
@@ -198,6 +207,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$36.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Sweater White</h4>
@@ -206,6 +216,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$36.00</h4>
                             </GridItem>
                           </GridContainer>
                         </div>
@@ -223,6 +234,7 @@ export default function ShopPage(props) {
                               alt="..."
                               className={classes.imgRounded + " " + classes.imgFluid}
                             />
+                            <h4>$30.00</h4>
                           </GridItem>
                           <GridItem xs={12} sm={2}>
                             <h4>CANVII Sweater Black</h4>
@@ -231,6 +243,7 @@ export default function ShopPage(props) {
                               alt="..."
                               className={classes.imgRounded + " " + classes.imgFluid}
                             />
+                            <h4>$36.00</h4>
                           </GridItem>
                           <GridItem xs={12} sm={2}>
                             <h4>CANVII Sweater White</h4>
@@ -239,6 +252,7 @@ export default function ShopPage(props) {
                               alt="..."
                               className={classes.imgRounded + " " + classes.imgFluid}
                             />
+                            <h4>$36.00</h4>
                           </GridItem>
                         </GridContainer>
                       )
@@ -256,6 +270,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$25.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Dad Hat Fill-in Black</h4>
@@ -264,6 +279,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$25.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Burgundy Dad Hat</h4>
@@ -272,6 +288,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$30.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Burgundy Giraffe</h4>
@@ -280,6 +297,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$30.00</h4>
                             </GridItem>
                           </GridContainer>
                           <GridContainer justify="center">
@@ -290,6 +308,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>Giraffe Visor Red</h4>
@@ -298,6 +317,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>Giraffe Visor Green</h4>
@@ -306,6 +326,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                           </GridContainer>
                           <GridContainer justify="center">
@@ -316,6 +337,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                             <GridItem xs={12} sm={2}>
                               <h4>CANVII Visor Fill-in</h4>
@@ -324,6 +346,7 @@ export default function ShopPage(props) {
                                 alt="..."
                                 className={classes.imgRounded + " " + classes.imgFluid}
                               />
+                              <h4>$28.00</h4>
                             </GridItem>
                           </GridContainer>
                         </div>
