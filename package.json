@@ -36,7 +36,15 @@
     "gh-pages": "^3.1.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "@types/creditcardutils": "https://github.com/nozzlegear/creditcardutils.d.ts",
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
+    "barrelsby": "^1.0.2",
+    "mkdirp": "^0.5.1",
+    "stylus": "^0.54.5",
+    "typescript": "3",
+    "winjs-grid": "github:winjs/grid"
   },
   "optionalDependencies": {
     "typescript": "3.9.3"

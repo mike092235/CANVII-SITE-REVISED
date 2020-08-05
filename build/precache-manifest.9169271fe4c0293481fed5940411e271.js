@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6982f970bc941560e4c4034dc69f04b0",
+    "revision": "f52ed2e6f2cd4df82e1eda89fa28c6d4",
     "url": "/CANVII-SITE-REVISED/index.html"
   },
   {
-    "revision": "d9a48dd72ab4e47ea3c2",
+    "revision": "f09a670eed0832a1ee92",
     "url": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CANVII-SITE-REVISED/static/js/2.c24928aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9a48dd72ab4e47ea3c2",
-    "url": "/CANVII-SITE-REVISED/static/js/main.0d29b6b0.chunk.js"
+    "revision": "f09a670eed0832a1ee92",
+    "url": "/CANVII-SITE-REVISED/static/js/main.acbb0a7b.chunk.js"
   },
   {
     "revision": "345866124ca7ac64d770",
