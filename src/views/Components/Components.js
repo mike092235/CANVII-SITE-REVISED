@@ -14,6 +14,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Parallax from "components/Parallax/Parallax.js";
 import SnackbarContent from "components/Snackbar/SnackbarContent.js";
+import Clearfix from "components/Clearfix/Clearfix.js";
 
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.js";
@@ -57,10 +58,8 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>CANVII</h1>
-                <h3 className={classes.subtitle}>
-                  Changing the common notion of the starving artist...to striving artist.
-                </h3>
+                <h1 className={classes.title}>BACKGROUND IMAGE</h1>
+                <h3 className={classes.subtitle}></h3>
               </div>
             </GridItem>
           </GridContainer>

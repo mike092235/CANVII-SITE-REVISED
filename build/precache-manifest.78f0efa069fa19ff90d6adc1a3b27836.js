@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65628c0ff24038476290b6f652791c94",
+    "revision": "415c875220d6ce6bc1eb330eb6f1449e",
     "url": "/CANVII-SITE-REVISED/index.html"
   },
   {
-    "revision": "de85030c5f5072679ff2",
+    "revision": "6d6773b9ad9411728e2f",
     "url": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css"
   },
   {
-    "revision": "26943ec8a59d1c911b19",
-    "url": "/CANVII-SITE-REVISED/static/js/2.1559a75a.chunk.js"
+    "revision": "3490fa3396e0bcc0dc93",
+    "url": "/CANVII-SITE-REVISED/static/js/2.dbb969f9.chunk.js"
   },
   {
     "revision": "8dbc9bd92b344a5deca62eeacc09fc2d",
-    "url": "/CANVII-SITE-REVISED/static/js/2.1559a75a.chunk.js.LICENSE.txt"
+    "url": "/CANVII-SITE-REVISED/static/js/2.dbb969f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de85030c5f5072679ff2",
-    "url": "/CANVII-SITE-REVISED/static/js/main.730a9fee.chunk.js"
+    "revision": "6d6773b9ad9411728e2f",
+    "url": "/CANVII-SITE-REVISED/static/js/main.345106cc.chunk.js"
   },
   {
     "revision": "345866124ca7ac64d770",
