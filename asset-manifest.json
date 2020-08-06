@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css",
-    "main.js": "/CANVII-SITE-REVISED/static/js/main.345106cc.chunk.js",
-    "main.js.map": "/CANVII-SITE-REVISED/static/js/main.345106cc.chunk.js.map",
+    "main.js": "/CANVII-SITE-REVISED/static/js/main.e3761b3c.chunk.js",
+    "main.js.map": "/CANVII-SITE-REVISED/static/js/main.e3761b3c.chunk.js.map",
     "runtime-main.js": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js",
     "runtime-main.js.map": "/CANVII-SITE-REVISED/static/js/runtime-main.f3234705.js.map",
     "static/js/2.dbb969f9.chunk.js": "/CANVII-SITE-REVISED/static/js/2.dbb969f9.chunk.js",
     "static/js/2.dbb969f9.chunk.js.map": "/CANVII-SITE-REVISED/static/js/2.dbb969f9.chunk.js.map",
     "index.html": "/CANVII-SITE-REVISED/index.html",
-    "precache-manifest.78f0efa069fa19ff90d6adc1a3b27836.js": "/CANVII-SITE-REVISED/precache-manifest.78f0efa069fa19ff90d6adc1a3b27836.js",
+    "precache-manifest.e6329c24f3c639d290f4406be118f71b.js": "/CANVII-SITE-REVISED/precache-manifest.e6329c24f3c639d290f4406be118f71b.js",
     "service-worker.js": "/CANVII-SITE-REVISED/service-worker.js",
     "static/css/main.126c14d6.chunk.css.map": "/CANVII-SITE-REVISED/static/css/main.126c14d6.chunk.css.map",
     "static/js/2.dbb969f9.chunk.js.LICENSE.txt": "/CANVII-SITE-REVISED/static/js/2.dbb969f9.chunk.js.LICENSE.txt",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.f3234705.js",
     "static/js/2.dbb969f9.chunk.js",
     "static/css/main.126c14d6.chunk.css",
-    "static/js/main.345106cc.chunk.js"
+    "static/js/main.e3761b3c.chunk.js"
   ]
 }
